@@ -1,0 +1,10 @@
+/* PRIMO BANNER */
+body::before {
+ content: "Systemstörung: Bücherbestellungen unter 'Weitere Bestrelloptionen' momentan nicht möglich. / System disruption: Book order under 'Other order options' currently not possible. 30. Januar 2023, 9:48 Uhr";
+ display: inline-block;
+ background: #FEF3BE;
+ text-align: center;
+ width: 100%;
+ font-weight: bold;
+}
+/* END primo banner */
