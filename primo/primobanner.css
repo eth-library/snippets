@@ -1,6 +1,6 @@
 /* PRIMO BANNER */
 body::before {
-    content: "Systemstörung – Bestellmöglichkeiten unter 'ETH-Kurier und weitere Lieferoptionen' eingeschränkt / System disruption – request options in 'ETH courier and further delivery options' restricted";
+    content: "Systemstörung – Bestellmöglichkeiten unter 'ETH-Kurier und weitere Lieferoptionen' eingeschränkt/System disruption – request options in 'ETH courier and further delivery options' restricted";
     display: inline-block;
     text-align: center;
     width: 100%;
