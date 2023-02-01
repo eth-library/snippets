@@ -4,8 +4,8 @@
                               "en": "Book order under 'Other order options' currently not possible."
                },
                "url": {
-                              "de": https://library.ethz.ch/,
-                              "en": https://library.ethz.ch/en/
+                              "de": "https://library.ethz.ch/",
+                              "en": "https://library.ethz.ch/en/"
                },
                "linktext": {
                               "de": "Mehr Infos",
