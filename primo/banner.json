@@ -2,18 +2,6 @@
 	"text1": {
 		"de": "Bücherbestellungen unter 'Weitere Bestelloptionen' momentan nicht möglich.",
 		"en": "Book order under 'Other order options' currently not possible."
-	},
-	"url": {
-		"de": "https://library.ethz.ch/",
-		"en": "https://library.ethz.ch/en/"
-	},
-	"linktext": {
-		"de": "Mehr Infos",
-		"en": "More informations"
-	},
-	"text2": {
-		"de": "text hinter link",
-		"en": "text behind link"
 	}
 	
 }
