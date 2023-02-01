@@ -6,11 +6,11 @@
 	"url": {
 		"de": "https://library.ethz.ch/",
 		"en": "https://library.ethz.ch/en/"
-	}
+	},
 	"linktext": {
 		"de": "Mehr Infos",
 		"en": "More informations"
-	}
+	},
 	"text2": {
 		"de": "text hinter link",
 		"en": "text behind link"
