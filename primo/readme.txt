@@ -7,7 +7,6 @@ Die Datei **banner.json** wird vom Customizing-Code gelesen.
 Steht in dieser Datei der Text in deutsch und englisch, dann wird dieser Text in der richtigen Sprache angezeigt.
 
 Der Text muss in folgender Form in der Datei stehen.
-
 ```
 {
     "de": "Bücherbestellungen unter 'Weitere Bestelloptionen' momentan nicht möglich.",
@@ -21,9 +20,10 @@ Diese Datei bitte nicht ändern.
 
 
 Soll der Hinweis nicht angezeigt werden, muss die Datei leer sein oder nur enthalten:
-
+```
 {
 }
+```
 
 Dieses Beispiel steht in der Datei **banner-example-empty.json**.
 Diese Datei bitte nicht ändern.
