@@ -1,5 +1,5 @@
 # Aufgabe
-es soll in unserer Swisscovery-View ein Hinweis oben auf der Seite angezeigt werden können, ohne das Customization Package zu ändern.
+Im Falle von Systemstörungen oder anderen Ereignissen, soll in https://eth.swisscovery.slsp.ch ein Hinweis oben auf der Seite angezeigt werden können, ohne das Customization Package zu ändern.
  
 # Lösung
 Die Datei **banner.json** wird vom Customizing-Code gelesen.
@@ -14,16 +14,14 @@ Der Text muss in folgender Form in der Datei stehen.
 }
 ```
 
-Dieses Beispiel steht in der Datei **banner-example-hint.json**.
+Dieses Beispiel steht als Beispiel-Textbaustein in der Datei **banner-example-hint.json**.
 Diese Datei bitte nicht ändern.
 
-
-
-Soll der Hinweis nicht angezeigt werden, muss die Datei leer sein oder nur enthalten:
+Soll der Hinweis nicht angezeigt werden, muss die Datei **banner.json** leer sein oder nur enthalten:
 ```
 {
 }
 ```
 
-Dieses Beispiel steht in der Datei **banner-example-empty.json**.
+Dieses Beispiel steht als Beispiel-Textbaustein in der Datei **banner-example-empty.json**.
 Diese Datei bitte nicht ändern.
