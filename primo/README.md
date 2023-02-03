@@ -1,7 +1,7 @@
-#Aufgabe
+# Aufgabe
 es soll in unserer Swisscovery-View ein Hinweis oben auf der Seite angezeigt werden können, ohne das Customization Package zu ändern.
  
-#Lösung
+# Lösung
 Die Datei **banner.json** wird vom Customizing-Code gelesen.
 
 Steht in dieser Datei der Text in deutsch und englisch, dann wird dieser Text in der richtigen Sprache angezeigt.
