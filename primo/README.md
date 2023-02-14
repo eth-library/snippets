@@ -2,7 +2,7 @@
 Im Falle von Systemstörungen oder anderen Ereignissen, soll in https://eth.swisscovery.slsp.ch ein Hinweistext oben auf der Seite angezeigt werden können, ohne das Customization Package zu ändern.
  
 # Lösung
-Die Datei **banner.json** wird vom Customizing-Code gelesen.
+Die Datei **banner.json** wird vom Customizing-Code via https://eth-library.github.io/snippets/primo/banner.json gelesen.
 
 Steht in dieser Datei der Text in deutsch und englisch, dann wird dieser Text in der richtigen Sprache angezeigt.
 
