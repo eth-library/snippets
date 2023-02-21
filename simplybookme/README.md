@@ -4,7 +4,7 @@ Für den Service "Ask a Librarian" können Benutzer über das Tool simplybook.me
 Die Erstellung und Anpassung von Skript-Knoten in AEM is Editoren nicht möglich.
  
 # Lösung
-Um die Editierbarkeit des eingebundenen Scripts für ETH-Bibliothek Editoren zu ermöglichen, wird das simplybook.me Script von GitHub Pages (https://eth-library.github.io/snippets/simplybookme/askalibrarian.js) eingebunden.
+Um die Editierbarkeit des eingebundenen Scripts für ETH-Bibliothek Editoren zu ermöglichen, wird das simplybook.me Script von GitHub Pages direkt eingebunden.
 
 Die Datei **askalibrarian.js** wird vom Skript-Knoten via https://eth-library.github.io/snippets/simplybookme/askalibrarian.js gelesen und kann entsprechend angepasst werden.
 
