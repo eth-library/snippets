@@ -98,7 +98,7 @@
         return a.d(t, "a", t), t
     }, a.o = function(e, t) {
         return Object.prototype.hasOwnProperty.call(e, t)
-    }, a.p = "https://lorem", a.oe = function(e) {
+    }, a.p = "https://embed.tawk.to/_s/v4/app/641d54f6f05/", a.oe = function(e) {
         throw console.error(e), e
     };
     var i = window.tawkJsonp = window.tawkJsonp || [],
