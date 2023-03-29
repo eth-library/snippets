@@ -12,24 +12,25 @@
 		window.$_Tawk.init = true;
 
 		var files = [
-			'https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-main.js',
-			'https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-vendor.js',
-			'https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-chunk-vendors.js',
-			'https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-chunk-common.js',
-			'https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-runtime.js',
-			'https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-app.js'
+	
+			'https://eth-library.github.io/snippets/aiengine/jamie/js/vendor.js',
+      
+			'https://eth-library.github.io/snippets/aiengine/jamie/js/chunk-vendors.js',
+			'https://eth-library.github.io/snippets/aiengine/jamie/js/chunk-common.js',
+			'https://eth-library.github.io/snippets/aiengine/jamie/js/runtime.js',
+			'https://eth-library.github.io/snippets/aiengine/jamie/js/app.js'
 		];
 
 		if (typeof Promise === 'undefined') {
-			files.unshift('https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-promise-polyfill.js');
+			files.unshift('https://eth-library.github.io/snippets/aiengine/jamie/js/promise-polyfill.js');
 		}
 
 		if (typeof Symbol === 'undefined' || typeof Symbol.iterator === 'undefined') {
-			files.unshift('https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-iterator-polyfill.js');
+			files.unshift('https://eth-library.github.io/snippets/aiengine/jamie/js/iterator-polyfill.js');
 		}
 
 		if (typeof Object.entries === 'undefined') {
-			files.unshift('https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-entries-polyfill.js');
+			files.unshift('https://eth-library.github.io/snippets/aiengine/jamie/js/entries-polyfill.js');
 		}
 
 		if (!window.crypto) {
@@ -37,15 +38,15 @@
 		}
 
 		if (typeof Event !== 'function') {
-			files.unshift('https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-event-polyfill.js');
+			files.unshift('https://eth-library.github.io/snippets/aiengine/jamie/js/event-polyfill.js');
 		}
 
 		if (!Object.values) {
-			files.unshift('https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-object-values-polyfill.js');
+			files.unshift('https://eth-library.github.io/snippets/aiengine/jamie/js/object-values-polyfill.js');
 		}
 
 		if (typeof Array.prototype.find === 'undefined') {
-			files.unshift('https://embed.tawk.to/_s/v4/app/641d54f6f05/js/twk-arr-find-polyfill.js');
+			files.unshift('https://eth-library.github.io/snippets/aiengine/jamie/js/find-polyfill.js');
 		}
 
 		var s0=document.getElementsByTagName('script')[0];
