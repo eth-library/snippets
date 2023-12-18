@@ -14,7 +14,7 @@ Sie enthält das CSS, um ein Icon neben den gewünschten Menüpunkt zu setzen.
 }
 ```
 
-Der neue Menüpunkt, im Beispiel **eth_website**, ist der Code des Menüpunktes entsprechend der Konfiguration des Menüs in der View in Alma.
+Der neue Menüpunkt, im Beispiel **"eth_website"**, wird durch den Code des Menüpunktes (entsprechend der Konfiguration des Menüs in der View in Alma) identifiziert.
 
 Das Icon **new.png** wird ebenfalls von hier geladen.
 
