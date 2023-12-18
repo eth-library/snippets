@@ -1,5 +1,10 @@
-[data-main-menu-item='eth_website']{
+
+[data-main-menu-item='ill_eth']{
     background-image: url('https://eth-library.github.io/snippets/menu-new/new.svg');
     background-position: left center;
     background-repeat: no-repeat;
+}
+
+prm-topbar prm-main-menu [data-main-menu-item='ill_eth'] .md-button:not(.close-btn-favorits-warning-message):not(.md-icon-button){
+    margin-left: 10px !important;
 }
