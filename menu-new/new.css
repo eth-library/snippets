@@ -1,9 +1,1 @@
-[data-main-menu-item='spotlight']{
-    background-image: url('https://eth-library.github.io/snippets/menu-new/new.svg');
-    background-position: right center;
-    background-repeat: no-repeat;
-}
 
-prm-topbar prm-main-menu [data-main-menu-item='spotlight'] .md-button:not(.close-btn-favorits-warning-message):not(.md-icon-button){
-    margin-right: 13px !important;
-}
