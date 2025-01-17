@@ -24,3 +24,67 @@ Soll der Hinweis nicht angezeigt werden, muss die Datei **banner.json** leer sei
 
 Dieses Beispiel steht als Beispiel-Textbaustein in der Datei **banner-example-empty.json**.
 Diese Datei bitte nicht ändern.
+
+# Im anura Frontend hinterlegter Code
+
+```
+	<!-- Start Info Banner -->
+	<script>
+		function fetchBannerData() {
+		const timestamp = new Date().getTime(); // Generate a timestamp to avoid caching issues
+		const urls = [
+			`https://eth-library.github.io/snippets/epics-anura/banner.json?t=${timestamp}`, // First URL to fetch banner data
+			`https://eth-library.github.io/snippets/epics-anura-ba/banner.json?t=${timestamp}` // Second URL to fetch banner data
+		];
+	
+		let bannerDataFound = false; // Flag to check if banner data is already found
+	
+		// Function to handle the response from each URL
+		function handleBannerResponse(data) {
+			const existingBanner = document.getElementById('info-banner'); // Check if there is an existing banner on the page
+	
+			if (data.info && !bannerDataFound) {
+			// If banner data is found and no banner has been shown yet
+			let banner;
+			if (existingBanner) {
+				banner = existingBanner; // Reuse existing banner if it already exists
+			} else {
+				banner = document.createElement('div'); // Create a new banner element if none exists
+				banner.id = 'info-banner'; // Assign an ID for easy reference
+				document.body.insertBefore(banner, document.body.firstChild); // Insert the banner at the top of the body
+			}
+	
+			// Set the banner content and style
+			banner.innerHTML = data.info;
+			banner.style.backgroundColor = '#f0f0f0';
+			banner.style.paddingTop = '30px';    // Top padding
+			banner.style.paddingBottom = '20px'; // Bottom padding
+			banner.style.paddingLeft = '40px';   // Left padding
+			banner.style.paddingRight = '40px';  // Right padding
+			banner.style.textAlign = 'center';
+			bannerDataFound = true; // Set the flag to true as banner data has been found and displayed
+			} else if (!data.info && existingBanner && !bannerDataFound) {
+			// If no banner data is found and an existing banner is present, remove it
+			existingBanner.remove();
+			}
+		}
+	
+		// Fetch data from each URL sequentially
+		urls.forEach(url => {
+			if (!bannerDataFound) {
+			// Only fetch if no banner data has been found yet
+			fetch(url)
+				.then(response => response.json()) // Parse the response as JSON
+				.then(data => handleBannerResponse(data)) // Handle the JSON response
+				.catch(error => console.error('Error fetching banner data:', error)); // Log any errors that occur during fetch
+			}
+		});
+		}
+	
+		// Initial call to fetch banner data
+		fetchBannerData();
+		// Set an interval to refresh the banner data every 10 minutes
+		setInterval(fetchBannerData, 10 * 60 * 1000);
+	</script>
+	<!-- End Info Banner -->
+```
