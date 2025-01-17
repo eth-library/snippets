@@ -26,6 +26,7 @@ Dieses Beispiel steht als Beispiel-Textbaustein in der Datei **banner-example-em
 Diese Datei bitte nicht ändern.
 
 # Im anura Frontend hinterlegter Code
+Dieses Beispiel steht als Code-Beispiel für das ba Frontend. Für andere Frontends muss lediglich das Katalogkürzel in der Second URL angepasst werden.
 
 ```
 	<!-- Start Info Banner -->
