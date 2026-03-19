@@ -1,6 +1,14 @@
 {
-  "text": "In a place like this, the past never stays buried.",
-  "author": "Matthew Spencer",
-  "book": "Black River",
-  "year": "2022"
+  "black-river": {
+    "text": "In a place like this, the past never stays buried.",
+    "author": "Matthew Spencer",
+    "book": "Black River",
+    "year": "2022"
+  },
+  "red-river": {
+    "text": "Some stories refuse to fade, no matter how deep you bury them.",
+    "author": "Jane Example",
+    "book": "Red River",
+    "year": "2019"
+  }
 }
